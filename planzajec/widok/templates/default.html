@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>{% block tytul %}DOMYŚLNY{% endblock %}</title>
+		{% load static %}
+		<link rel="stylesheet" href="{% static 'css/styl.css' %}" />
+	</head>
+	<body>
+		{% block resztawww %}<p>Treść zastępcza</p>{% endblock %}
+	</body>
+</html>

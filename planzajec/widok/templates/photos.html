@@ -1,0 +1,15 @@
+{% extends "default.html" %}
+{% load static %}
+
+{% block tytul %}Zdjęcia{% endblock %}
+
+{% block resztawww %}
+<h1 class="page-title">Moje zdjęcia</h1>
+
+<div class="gallery">
+    <img src="{% static 'img/photos/python.png' %}" alt="Python Logo">
+    <img src="{% static 'img/photos/git.png' %}" alt="Git Logo">
+    <img src="{% static 'img/photos/html.png' %}" alt="HTML Logo">
+    <img src="{% static 'img/photos/css.png' %}" alt="CSS Logo">
+</div>
+{% endblock %}
